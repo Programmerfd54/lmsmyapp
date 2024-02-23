@@ -42,7 +42,7 @@ export const CourseProgressButton = ({
         router.push(`/courses/${courseId}/chapters/${nextChapterId}`);
       }
 
-      toast.success("Пргресс обновлен");
+      toast.success("Прогресс обновлен");
       router.refresh();
     } catch {
       toast.error("Что-то пошло не так");
